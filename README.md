@@ -1,5 +1,3 @@
----
-
 # IQ Test Platform (Real-Time)
 
 A high-concurrency, real-time IQ assessment platform built with **Next.js**, **WebSockets**, and **Prisma**. This application enables an administrator to orchestrate a synchronized testing experience for multiple participants simultaneously.
