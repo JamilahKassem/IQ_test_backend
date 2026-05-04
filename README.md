@@ -38,7 +38,8 @@ The project uses a relational structure to link questions with user results:
 
 *   **Question:** Stores the image path, duration, and metadata.
 *   **Result:** Tracks which user answered which question, their selected option, and timestamps.
-*   **User:** Manages authentication and roles (Admin vs. Competent).
+*   **User:** Answers the questions and takes exam (Competent).
+*   **Admin:** Manages authentication and roles (Competent).
 
 ---
 
