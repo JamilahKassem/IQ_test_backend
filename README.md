@@ -72,7 +72,8 @@ The project uses a relational structure to link questions with user results:
 ## 📡 WebSocket Logic
 The communication layer handles two primary events:
 *   **`NextQuestion`**: Sent by the Admin to trigger the transition from "Waiting" to "Question" for all users.
-*   **`AnswerSubmission`**: (Optional) Can be used for real-time progress tracking on the Admin dashboard.
+*   **`EndQuestion`**: Sent by the Server when question timer runs out.
+*   **`Endexam`**: Sent by the admin when final question is reached.
 
 ## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
